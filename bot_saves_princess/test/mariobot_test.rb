@@ -13,7 +13,7 @@ module Kernel
   end
 end
 
-class BotSavesPrincessTest < Minitest::Test
+class MariobotTest < Minitest::Test
   def test_display_path_to_princess_can_output_path_for_3_x_3_grid
     out = capture_stdout do
       mariobot = Mariobot.new(3, ["---",
