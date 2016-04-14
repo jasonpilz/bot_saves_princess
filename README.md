@@ -102,3 +102,7 @@ Run tests with the command:
 ```bash
 ruby bot_saves_princess_2/test/mariobot_2_test.rb
 ```
+
+Running tests output:
+
+![Test output](https://s3-us-west-2.amazonaws.com/pilz-pictures/bot_saves_princess_tests.png)
