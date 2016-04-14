@@ -15,7 +15,6 @@ end
 
 class Mariobot2Test < Minitest::Test
   def test_can_output_next_move_for_peach_above_mario
-    skip
     out = capture_stdout do
       mariobot = Mariobot2.new('3',
                                '1 1',
@@ -25,7 +24,7 @@ class Mariobot2Test < Minitest::Test
       mariobot.next_move
     end
 
-    assert_equal "UP", out.string
+    assert_equal "UP\n", out.string
   end
 
   def test_can_output_next_move_for_peach_below_mario
@@ -40,11 +39,10 @@ class Mariobot2Test < Minitest::Test
       mariobot.next_move
     end
 
-    assert_equal "DOWN", out.string
+    assert_equal "DOWN\n", out.string
   end
 
   def test_can_output_next_move_for_peach_left_of_mario
-    skip
     out = capture_stdout do
       mariobot = Mariobot2.new('5',
                                '2 3',
@@ -56,11 +54,10 @@ class Mariobot2Test < Minitest::Test
       mariobot.next_move
     end
 
-    assert_equal "LEFT", out.string
+    assert_equal "LEFT\n", out.string
   end
 
   def test_can_output_next_move_for_peach_right_of_mario
-    skip
     out = capture_stdout do
       mariobot = Mariobot2.new('5',
                                '2 1',
@@ -72,6 +69,6 @@ class Mariobot2Test < Minitest::Test
       mariobot.next_move
     end
 
-    assert_equal "RIGHT", out.string
+    assert_equal "RIGHT\n", out.string
   end
 end

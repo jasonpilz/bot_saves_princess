@@ -89,3 +89,16 @@ Your score for every testcase would be (NxN minus number of moves made to rescue
 
 ## Task
 Complete the function nextMove which takes in 4 parameters - an integer N, integers r and c indicating the row & column position of the bot and the character array grid - and outputs the next move the bot makes to rescue the princess.
+
+## Testing
+File `lib/mariobot_2.rb` wraps logic of `lib/bot_saves_princess_2` into a class to
+enable testing.
+
+File `test/mariobot_2_test.rb` tests that logic using Minitest by extending the
+Kernel module to capture the `puts` output of the `next_move`
+method.
+
+Run tests with the command:
+```bash
+ruby bot_saves_princess_2/test/mariobot_2_test.rb
+```

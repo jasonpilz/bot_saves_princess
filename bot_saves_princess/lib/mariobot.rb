@@ -1,5 +1,5 @@
 class Mariobot
-  attr_accessor :n, :grid
+  attr_reader :n, :grid
 
   def initialize(n, grid)
     @n    = n
@@ -29,4 +29,3 @@ class Mariobot
     moves.each {|move| puts move}
   end
 end
-
