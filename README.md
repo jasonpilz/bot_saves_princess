@@ -29,3 +29,8 @@ Complete the function displayPathtoPrincess which takes in two parameters - the 
 The above sample input is just to help you understand the format. The princess (‘p’) can be in any one of the four corners.
 
 Scoring Your score is calculated as follows : (NxN - moves made to rescue the princess)/10, where N is the size of the grid (3x3 in the sample testcase).
+
+## Testing
+
+
+# Bot Saves Princess - 2

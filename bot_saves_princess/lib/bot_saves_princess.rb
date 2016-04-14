@@ -10,7 +10,7 @@ def display_path_to_princess(n, grid)
     end
   end
 
-  2.times { mariobot_xy.push((n - 1) / 2) }
+  2.times {mariobot_xy.push((n - 1) / 2)}
 
   cols = peach_xy[0] - mariobot_xy[0]
   rows = peach_xy[1] - mariobot_xy[1]
